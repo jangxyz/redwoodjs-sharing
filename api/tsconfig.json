@@ -1,0 +1,31 @@
+commit a8d5ebf5d2d8f7366d8682f3d7692db130bd5211
+Author: Kim, Jang-hwan <janghwan@gmail.com>
+Date:   Thu Feb 11 09:43:27 2021 +0900
+
+    try removing tsconfig.json
+
+diff --git a/api/tsconfig.json b/api/tsconfig.json
+deleted file mode 100644
+index b74d7db..0000000
+--- a/api/tsconfig.json
++++ /dev/null
+@@ -1,19 +0,0 @@
+-{
+-  "compilerOptions": {
+-    "noEmit": true,
+-    "allowJs": true,
+-    "esModuleInterop": true,
+-    "target": "esnext",
+-    "module": "esnext",
+-    "moduleResolution": "node",
+-    "baseUrl": "./",
+-    "paths": {
+-      "src/*": ["./src/*"],
+-      "~sharing/*": ["../sharing/*"]
+-    },
+-    "typeRoots": ["../.redwood"],
+-    "types": []
+-  },
+-  "include": ["src"]
+-}
+-

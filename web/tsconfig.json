@@ -1,0 +1,30 @@
+commit a8d5ebf5d2d8f7366d8682f3d7692db130bd5211
+Author: Kim, Jang-hwan <janghwan@gmail.com>
+Date:   Thu Feb 11 09:43:27 2021 +0900
+
+    try removing tsconfig.json
+
+diff --git a/web/tsconfig.json b/web/tsconfig.json
+deleted file mode 100644
+index 09b63c4..0000000
+--- a/web/tsconfig.json
++++ /dev/null
+@@ -1,18 +0,0 @@
+-{
+-  "compilerOptions": {
+-    "noEmit": true,
+-    "allowJs": true,
+-    "esModuleInterop": true,
+-    "target": "esnext",
+-    "module": "esnext",
+-    "moduleResolution": "node",
+-    "jsx": "preserve",
+-    "baseUrl": "./",
+-    "paths": {
+-      "src/*": ["./src/*"]
+-    },
+-    "typeRoots": ["../.redwood"],
+-    "types": []
+-  },
+-  "include": ["src"]
+-}
